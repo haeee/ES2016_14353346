@@ -17,7 +17,7 @@ $	sudo apt-get install unzip
 `$	unzip dol_ethz.zip -d dol`  
 
 + 解压systemc  
-$	tar -zxvf systemc-2.3.1.tgz  
+`$	tar -zxvf systemc-2.3.1.tgz`  
 
 
 ## 编译systemc
@@ -42,7 +42,8 @@ $	tar -zxvf systemc-2.3.1.tgz
 
 + 记录当前的工作路径(会输出当前所在路径，记下来，待会有用)   
 `$	pwd`  
-![](http://p1.bpimg.com/567571/53189c8a23298ffa.jpg) 当前的工作路径为 /home/yt/systemc-2.3.1 
+如下图，当前的工作路径为 /home/yt/systemc-2.3.1  
+![](http://p1.bpimg.com/567571/53189c8a23298ffa.jpg)  
 
 
 

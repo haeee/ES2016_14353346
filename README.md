@@ -2,10 +2,10 @@
 14353346	 许瑶婷
 ***
 ## 安装一些必要的环境
->$	sudo apt-get update  
+```$	sudo apt-get update  
 $	sudo apt-get install ant  
 $ 	sudo apt-get install openjdk-8-jdk  
-$	sudo apt-get install unzip
+$	sudo apt-get install unzip```
 
 
 ## 解压文件

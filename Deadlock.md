@@ -42,8 +42,8 @@
 
 + 当a.methodA(b)和b.methodB(a)执行的时间很接近时，即一个没有执行完毕，另一个就开始执行，就会产生死锁。  
 > **以此为例**  
-> 执行a.methodA(b)
-> a.last()被阻塞
-> 调用b.last()函数
-> b.method()被阻塞
+> 执行a.methodA(b)   
+> a.last()被阻塞   
+> 调用b.last()函数   
+> b.method()被阻塞   
 > 执行b.methodB(a)，发现其被阻塞，程序无法继续执行，产生死锁
